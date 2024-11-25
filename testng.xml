@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OTSTestSuite">
+	  <test name="Smoke">
+	    <classes>
+	      <class name="class48_getting_started.FirstTestNG"/>
+	      <class name="class50_xmlfiles_annotation.TestNGInvocationCount"/>
+	      <class name="class49_assertion.BaseClass"/>
+	    </classes>
+	  </test>
+	  
+	    <test name="Regression">
+	    <classes>
+	  
+	      <class name="class49_assertion.SoftAssertionDemo"/>
+	      <class name="class48_getting_started.TestngExample2"/>
+	      <class name="class49_assertion.Dependency"/>
+	     
+	    </classes>
+	  </test>
+	  
+	    <test name="E2E">
+	    <classes>
+	      <class name="class49_assertion.TestNGWithSelenium"/>
+	      <class name="class49_assertion.AssertionInTestNG"/>
+	    </classes>
+	  </test>
+</suite> 

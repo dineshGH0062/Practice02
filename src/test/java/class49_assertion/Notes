@@ -1,0 +1,12 @@
+@BeforeSuite
+	@BeforeTest
+		@BeforeClass
+			@BeforeGroup
+				@BeforeMethod
+					@Test
+					@Test
+				@AfterMethod
+			@AfterGroup
+		@AfterClass
+	@AfterTest
+@AfterSuite	
